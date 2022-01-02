@@ -1,0 +1,53 @@
+.buttonList{
+    gap:20px;
+}
+.buttonList p {
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 900;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: #262626;
+    background-color: #525252;
+    font-size: 16px;
+    transition: all .5s;
+    border-radius: 20px;
+
+}
+.ace_content{
+    width:400px!important
+}
+.ace-monokai .ace_gutter {
+    background-color: #40404080 !important;
+    border-left: 10px solid #262626;
+
+}
+
+.ace_snippet-marker {
+    border: 0px !important;
+    background: transparent !important;
+}
+
+#ace-editor {
+    height: 100% !important;
+}
+
+.buttonList p:hover, .buttonList p.activeTab {
+    background-color: #40404080;
+    color: white;
+    transition: all 1s;
+}
+
+.buttonList p:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonList p:nth-child(3) {
+    margin-bottom: 20px;
+
+}
