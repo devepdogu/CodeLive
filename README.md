@@ -9,3 +9,7 @@ Coding web with live
 ```nodejs
 npm i react-ace react-redux @reduxjs/toolkit tailwindcss 
 ```
+
+## Screen Shot
+
+![Uygulama Ekran Görüntüsü](https://dogukandemir.net/img/codelive.png)
